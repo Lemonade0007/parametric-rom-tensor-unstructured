@@ -38,7 +38,7 @@
     - kriging/fitrgp interpolation
     - Output: **preds** (errors printed)
 
-**data(2).mat**, **datap(2).mat**, and **transmatrix(2).txt** are provided as the dataset for Flow around a circular cylinder case (velocity-x and pressure fields).
+**data(2).mat**, **datap(2).mat**, **point(2).txt**, and **transmatrix(2).txt** are provided as the dataset for Flow around a circular cylinder case (velocity-x and pressure fields).
 
 ## Issues
 - Current version does not support multi-dimensional (>2) unstructured mesh data.
