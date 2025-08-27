@@ -2,7 +2,7 @@
 
 ## Overview
 <p align="center" width="100%">
-  <img width=80% src="./fig/construction(4).png" >
+  <img width=98% src="./fig/construction(4).png" >
   <br />
 </p>
 
@@ -10,3 +10,5 @@
   <img width=98% src="./fig/procedure(7).png" >
   <br />
 </p>
+
+## Workflow
