@@ -69,7 +69,7 @@ def print_matrix(matrix, path):
         for row in matrix:
             file.write(','.join(map(str, row)) + '\n')
 
-points = read_points_from_file("preprocessed/point(2).txt") # Your file here
+points = read_points_from_file("point(2).txt") # Your file here
 
 matrix = build_matrix(points)
 
