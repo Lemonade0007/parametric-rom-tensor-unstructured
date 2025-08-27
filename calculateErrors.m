@@ -1,7 +1,7 @@
 function [max_abs_err, mean_rel_err, rmse, rrmse] = calculateErrors(ground_truth, predicted_data)
     % Size check
     if length(ground_truth) ~= length(predicted_data)
-        error('Input must be in the same size.');
+        error('Input must be of the same size.');
     end
 
     % Calculate Max Abs Error

@@ -26,7 +26,7 @@ data_matrix = data_matrix - mean_matrix_expanded;
 T = tensor(data_matrix);
 % CP decomposition by tensor_toolbox
 rng('default');
-num = 160; % Set the number of CP modes
+num = 160; % Set number of CP modes
 cp_model = cp_als(T,num);
 % cp_model = cp_opt(T,num);
 factor_matrix = cp_model.U{3}; % Parameter-varying coefficients

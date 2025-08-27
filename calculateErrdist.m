@@ -1,7 +1,7 @@
 function rrmse = calculateErrdist(ground_truth, predicted_data)
     % Size check
     if size(ground_truth) ~= size(predicted_data)
-        error('Input must be in the same size.');
+        error('Input must be of the same size.');
     end
 
     % Calculate rRMSE
